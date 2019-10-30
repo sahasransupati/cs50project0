@@ -1,0 +1,32 @@
+
+ @media (min-width: 500px) {
+    h1::before {
+        content: "Welcome to My Web Page!";
+    }
+}
+
+@media (max-width: 499px) {
+    h1::before {
+        content: "Welcome!";
+    }
+}
+
+ul {
+    color: red;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgray;
+}
